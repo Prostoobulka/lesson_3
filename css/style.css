@@ -1,0 +1,59 @@
+body {
+	color: rgb(24, 21, 21);
+}
+/* ---------------------------------- */
+
+.main-title {
+	color: blue;
+}
+/* ---------------------------------- */
+
+#pink {
+	color: pink;
+}
+/* ---------------------------------- */
+
+/* Звертається тоді, коли одночасно прописані ці теги в класі*/
+.menu-link.menu-link--brown {
+	color: blueviolet;
+}
+/* ---------------------------------- */
+
+/* Звертаємось одразу до двух класів, надалі буде +-сом тому що скоротить код */
+.slider-descr--color,
+.text--color {
+	color: orange;
+}
+/* ---------------------------------- */
+
+/* Вкладеність */
+.block span {
+	color: lawngreen;
+}
+/* Cхожі  */
+.block-one-text .paragraph {
+	color: magenta;
+}
+/* ---------------------------------- */
+
+.block-two-text * {
+	color: gold;
+}
+/* ---------------------------------- */
+
+.block-three-text > p {
+	color: darksalmon;
+}
+/* ---------------------------------- */
+
+.block-four-favorite ~ p {
+	color: red;
+}
+/* ---------------------------------- */
+.block-five-favorite + p {
+	color: red;
+}
+
+.menu-footer-link.menu-footer-link--color {
+	color: red;
+}
